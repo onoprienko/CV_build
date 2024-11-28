@@ -1,0 +1,1 @@
+.section__container{width:78vw;margin:0 auto}.s-text{padding:calc(100vw / var(--vw)) 0;color:var(--white);background:var(--gray);border-top:1px solid rgba(255,255,255,.12)}.s-text__title{margin:0;margin-bottom:calc(74vw / var(--vw))}.s-text--cond .s-text__title{margin-bottom:calc(40vw / var(--vw))}@media (max-width:768px){.section__container{width:90vw}}
