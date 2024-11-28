@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: visible;
+    scroll-behavior: smooth;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+section {
+	width: calc(50vw - 40px);
+	height: 100vh;	
+	position: relative;
+    z-index: 99;
+    left:  50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+h2{
+    color:  #fff;
+    font-size: 10vh;
+}
+
+
+
+@media (max-width: 720px){
+    section {
+        width: 100%;
+        left:  0%;
+    }
+    h2{
+        font-size: 6vh;
+    }  
+}
+
+/*# sourceMappingURL=main.css.map*/

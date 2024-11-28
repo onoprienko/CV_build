@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: visible;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+section {
+	width: 35%;
+	height: 100vh;	
+	position: relative;
+    z-index: 99;
+    left:  55%;
+    /*border:  5px solid #fff;*/
+}
+
+.section1, .section7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    font-size: 10vh;
+    color:  #fff;
+}  
+p{
+    font-size: 6vh;
+    color:  #fff;
+    margin:  4vh 0;  
+}
+
+
+@media (max-width: 720px){
+    section {
+        width: 100%;
+        left:  0%;
+        padding: 80px 40px;
+        box-sizing:  border-box;
+    }
+    h2{
+        font-size: 7vh;
+    }  
+    p{
+        font-size: 4vh;
+    }
+}
+
+/*# sourceMappingURL=main.css.map*/
